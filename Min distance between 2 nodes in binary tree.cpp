@@ -37,7 +37,7 @@
         
         if(root==NULL){
             
-            return INT_MAX-1;
+            return 1e9;
         }
         
         if(root->data == val){
