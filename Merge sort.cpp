@@ -51,7 +51,7 @@ void mergeSort(int a[],int s,int e){
     //1. Divide
     int mid = (s+e)/2;
     
-    //Recursively the arrays - s,mid and mid+1,e
+    //Recursively sort the arrays - s,mid and mid+1,e
     mergeSort(a,s,mid);
     mergeSort(a,mid+1,e);
     
