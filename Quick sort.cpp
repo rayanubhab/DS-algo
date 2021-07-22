@@ -5,7 +5,8 @@ using namespace std;
 //	Time complexity is O(nlogn) in average case and O(n^2) in worst case
 
 int Partition(int *A,int left,int right){
-	
+
+// Here we have taken the leftmost element as pivot, we can take any element as pivot like rightmost element in mycodeschool video
 	int pivot = A[left];
 	int i = left;
 	int j = (right+1);
