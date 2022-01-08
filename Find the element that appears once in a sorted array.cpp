@@ -1,4 +1,9 @@
-	int search(int A[], int N){
+	
+Intution- The required element will always lie on the portion that has odd number of elements in it.
+	NOTE- If the first condition fails, while segregating the portions we need to keep the elements that are equal together in one portion otherwise the odd/even logic will fail
+
+
+int search(int A[], int N){
 	  
 	    
 	    int low = 0,high = N-1;
