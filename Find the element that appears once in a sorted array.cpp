@@ -1,5 +1,5 @@
 	int search(int A[], int N){
-	    //code
+	  
 	    
 	    int low = 0,high = N-1;
 	    
