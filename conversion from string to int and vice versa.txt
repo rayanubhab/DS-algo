@@ -1,0 +1,33 @@
+//convert string to integer without any inbuilt function
+
+int strtoint(string &s){
+
+int sum = 0;
+for(int i=0;i<sum.length();i++){
+    //0 -9 ascii value range 48 to 57
+if(s[i]<48 || s[i] >57) return -1; //cannot convert to integer
+
+else{
+ sum = sum*10 + (s[i]-48); // we can also write sum = sum*10 +(s[i]-'0')
+
+}
+
+}
+return sum;
+
+}
+
+
+
+//convert integer to string without inbuilt function
+
+string inttostring(int val){
+
+string s="";
+while(val){
+int num = val%10;
+s=(num+'0')+s;
+val = val/10;
+}
+return s;
+}
